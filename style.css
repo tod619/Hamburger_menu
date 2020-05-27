@@ -31,3 +31,27 @@
 .logo img {
     width: 100%;
 }
+
+/* Hamburger Menu */
+.hamburger-menu {
+    width: 35px;
+    height: 30px;
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.line {
+    width: inherit;
+    height: 5px;
+    background-color: #16c3cf;
+    border-radius: 25px;
+}
+
+.line-2 {
+    height: 3px;
+}

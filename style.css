@@ -18,3 +18,16 @@
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(images/banner-bg.jpeg) center no-repeat;
     background-size: cover;
 }
+
+/* Logo  */
+.logo {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    top: 20px;
+    left: 50px;
+}
+
+.logo img {
+    width: 100%;
+}

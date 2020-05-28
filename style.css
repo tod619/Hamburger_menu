@@ -321,7 +321,7 @@
 
 @media(max-width: 1200px) {
 	.top-nav {
-		background-color: #010101;
+		background: #010101;
 	}
 
 	.nav-list {
@@ -349,5 +349,51 @@
 		width: 130px;
 		height: 130px;
 		font-size: 40px;
+	}
+}
+
+@media(max-width: 900px) {
+	.banner-btn {
+		width: 300px;
+		height: 80px;
+		font-size: 30px;
+
+	}
+
+	.top-nav {
+		height: 25vh;
+		top: -25vh;
+	}
+
+	.bottom-nav {
+		height: 75vh;
+		bottom: -75vh;
+	}
+
+	.nav-list {
+		width: 70%;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	.nav-link {
+		margin: 3px 0;
+	}
+
+	.icons {
+		width: 95%%;
+
+	}
+
+	.icon-link {
+		width: 140px;
+		height: 140px;
+
+	}
+
+	.icon-link i {
+		width: 90px;
+		height: 90px;
+		font-size: 30px;
 	}
 }

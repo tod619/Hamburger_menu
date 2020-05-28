@@ -311,3 +311,43 @@
 	border-radius: 0;
 	transition: all 0.3s;
 }
+
+/* Media Q */
+@media(max-width: 1600px) {
+	.icons {
+		width: 80%;
+	}
+}
+
+@media(max-width: 1200px) {
+	.top-nav {
+		background-color: #010101;
+	}
+
+	.nav-list {
+		justify-content: center;
+	}
+
+	.nav-link {
+		font-size: 25px;
+	}
+
+	.icons {
+		width: 70%;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.icon-link {
+		width: 180px;
+		height: 180px;
+		margin: 20px;
+	}
+
+	.icon-link i {
+		width: 130px;
+		height: 130px;
+		font-size: 40px;
+	}
+}

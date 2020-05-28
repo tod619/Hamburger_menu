@@ -397,3 +397,21 @@
 		font-size: 30px;
 	}
 }
+
+@media(max-width: 750px) {
+	.nav-list {
+		width: 60%;
+	}
+
+	icon-link {
+		width: 120px;
+		height: 120px;
+
+	}
+
+	.icon-link i {
+		width: 70px;
+		height: 70px;
+
+	}
+}

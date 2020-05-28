@@ -3,111 +3,118 @@
 
 /* CSS Reset */
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* Container Style */
 .container {
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .banner {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(images/banner-bg.jpeg) center no-repeat;
-    background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(images/banner-bg.jpeg) center no-repeat;
+	background-size: cover;
 }
 
 /* Logo  */
 .logo {
-    height: 80px;
-    width: 80px;
-    position: fixed;
-    top: 20px;
-    left: 50px;
+	height: 80px;
+	width: 80px;
+	position: fixed;
+	top: 20px;
+	left: 50px;
 }
 
 .logo img {
-    width: 100%;
+	width: 100%;
 }
 
 /* Hamburger Menu */
 .hamburger-menu {
-    width: 35px;
-    height: 30px;
-    position: fixed;
-    top: 40px;
-    right: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
+	width: 35px;
+	height: 30px;
+	position: fixed;
+	top: 40px;
+	right: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
 }
 
 .line {
-    width: inherit;
-    height: 5px;
-    background-color: #16c3cf;
-    border-radius: 25px;
+	width: inherit;
+	height: 5px;
+	background-color: #16c3cf;
+	border-radius: 25px;
 }
 
 .line-2 {
-    height: 3px;
+	height: 3px;
 }
 
 /* button */
 .btn-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    perspective: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	perspective: 1000px;
 }
 
 .banner-btn {
-    width: 350px;
-    height: 100px;
-    background: linear-gradient(#16c3cf, #156469);
-    border: none;
-    outline: none;
-    font-family: 'Slabo 27px', serif;
-    font-size: 35px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #fff;
-    text-shadow: 0 10px 10px #000;
-    cursor: pointer;
-    transform: rotateX(70deg) rotateZ(30deg);
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
+	width: 350px;
+	height: 100px;
+	background: linear-gradient(#16c3cf, #156469);
+	border: none;
+	outline: none;
+	font-family: 'Slabo 27px', serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #fff;
+	text-shadow: 0 10px 10px #000;
+	cursor: pointer;
+	transform: rotateX(70deg) rotateZ(30deg);
+	transform-style: preserve-3d;
+	transition: transform 0.5s;
 }
 
 .banner-btn:hover {
-    transform: rotateX(30deg) rotateZ(0deg);
-
+	transform: rotateX(30deg) rotateZ(0deg);
 }
 
 .banner-btn::before {
-    content: '';
-    width: 100%;
-    height: 15px;
-    background-color: #156469;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: rotateX(90deg);
-    transform-origin: bottom;
+	content: '';
+	width: 100%;
+	height: 15px;
+	background-color: #156469;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: rotateX(90deg);
+	transform-origin: bottom;
 }
 
 .banner-btn::after {
-    content: '';
-    width: 15px;
-    height: 100%;
-    background-color: #16c3cf;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: rotateY(-90deg);
-    transform-origin: right;
+	content: '';
+	width: 15px;
+	height: 100%;
+	background-color: #16c3cf;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: rotateY(-90deg);
+	transform-origin: right;
+}
+
+/* Top Navigation Menu */
+.top-nav {
+	height: 15vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/nav-bg.jpeg) no-repeat 50% 0;
+	background-size: cover;
 }
